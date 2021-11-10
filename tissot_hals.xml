@@ -3,9 +3,9 @@
     <remote name="ub" fetch="https://github.com/LineageOS" />
 
 # Hals
-    <remove-project name="android_hardware_qcom_audio" />
-    <remove-project name="android_hardware_qcom_display" />
-    <remove-project name="android_hardware_qcom_media" />
+    <remove-project name="platform_hardware_qcom_audio" />
+    <remove-project name="platform_hardware_qcom_display" />
+    <remove-project name="platform_hardware_qcom_media" />
     <project path="hardware/qcom-caf/msm8996/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="ub" revision="lineage-18.1-caf-msm8996" />
     <project path="hardware/qcom-caf/msm8996/media" name="android_hardware_qcom_media" groups="qcom" remote="ub" revision="lineage-18.1-caf-msm8996" />
 
