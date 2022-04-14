@@ -4,17 +4,16 @@
         <remote name="ub7"
                 fetch="https://github.com/ucoboy" />
 
-        <project path="device/xiaomi/tissot" name="android_device_xiaomi_tissot" remote="ub7" revision="xd12" clone-depth="1" />
-        <project path="device/xiaomi/msm8953-common" name="android_device_xiaomi_msm8953-common" remote="ub7" revision="xd12" clone-depth="1" />
+        <project path="device/xiaomi/tissot" name="android_device_xiaomi_tissot" remote="ub7" revision="arcana" clone-depth="1" />
+        <remote name="pdcdt"
+                fetch="https://github.com/PalladiumOS-Devices" />
+        <project path="device/xiaomi/msm8953-common" name="device_xiaomi_msm8953-common" remote="pdcdt" revision="12.1" clone-depth="1" />
         <project path="vendor/xiaomi/tissot" name="android_vendor_xiaomi_tissot" remote="ub7" revision="tissot" clone-depth="1" />
         <project path="vendor/xiaomi/msm8953-common" name="android_vendor_xiaomi_tissot" remote="ub7" revision="msm8953-common" clone-depth="1" />
 
         <remote name="pxlkernel"
                 fetch="https://github.com/PixelExperience-Devices" />
         <project path="kernel/xiaomi/msm8953" name="kernel_xiaomi_tissot" remote="pxlkernel" revision="twelve" clone-depth="1" />
-   
-        <remove-project name="xd_device_qcom_sepolicy-legacy-um"/>
-        <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy" remote="ub7" revision="xd"/>
 
 # Hals
         <remote name="pxl12"
