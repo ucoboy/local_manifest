@@ -5,8 +5,8 @@
                 fetch="https://github.com/ucoboy" />
 
         <project path="device/xiaomi/tissot" name="android_device_xiaomi_tissot" remote="ub7" revision="arcana" clone-depth="1" />
-        <project path="vendor/xiaomi/tissot" name="vendor_xiaomi_tissot" remote="ub7" revision="tissot" clone-depth="1" />
-        <project path="vendor/xiaomi/msm8953-common" name="vendor_xiaomi_tissot" remote="ub7" revision="common" clone-depth="1" />
+        <project path="vendor/xiaomi/tissot" name="android_vendor_xiaomi_tissot" remote="ub7" revision="tissot" clone-depth="1" />
+        <project path="vendor/xiaomi/msm8953-common" name="android_vendor_xiaomi_tissot" remote="ub7" revision="common" clone-depth="1" />
         <remote name="pdcdt"
                 fetch="https://github.com/PalladiumOS-Devices" />
         <project path="device/xiaomi/msm8953-common" name="device_xiaomi_msm8953-common" remote="pdcdt" revision="12.1" clone-depth="1" />
